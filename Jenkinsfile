@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage( 'print') {
       steps {
-        echo " WELCOME TO THE WEBSITE"
+        sh "index.html"
       }
     }
   }
