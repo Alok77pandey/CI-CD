@@ -6,7 +6,7 @@ pipeline {
   }
   
   stages {
-    stage( 'INDEX') {
+    stage( 'print') {
       steps {
         echo " WELCOME TO THE WEBSITE"
       }
