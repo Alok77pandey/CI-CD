@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage( 'RUN') {
       steps {
-        echo "HELLO, THIS IS A COMMON BUILD"
+        echo "HELLO, THIS IS JUST A BUILD"
       }
     }
   }
