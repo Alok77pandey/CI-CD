@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage( 'RUN') {
       steps {
-        echo "index.html"
+        echo "HELLO, THIS IS A COMMON BUILD"
       }
     }
   }
