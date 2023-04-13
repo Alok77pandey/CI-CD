@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage( 'RUN') {
       steps {
-        sh "index.html"
+        echo "index.html"
       }
     }
   }
